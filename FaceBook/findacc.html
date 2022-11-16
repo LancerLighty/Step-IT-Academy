@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - find Account</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="facebook">
+                <h1>facebook</h1>
+            </div>
+            <div class="login">
+                <input type="text" placeholder="Email or phone">
+                <input type="text" placeholder="Password">
+                <button>Log In</button>
+                <a href="http://">Forgot Account?</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="find">
+                <h1>Find Your Account</h1>
+                <hr>
+                <p>Pleace enter your email or mobile number to search for your account.</p>
+                <input type="text" placeholder="Email or mobile number">
+                <hr>
+                <div class="buttonset">
+                    <div class="button">
+                    <button class="cencel">Cencel</button>
+                    <button class="search">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body{
+        background-color: rgb(233, 233, 233);
+        margin: 0px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        padding: 5px;
+    }
+    .top h1{
+        margin: 5px;
+        color: #1B74E4;
+    }
+    .top input{
+        padding: 10px;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        font-size: 15px;
+    }
+    .top button{
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 5px;
+        border: none;
+        background-color: #1B74E4;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    input:focus{
+        outline-color: rgb(25, 97, 253);
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+    }
+    .find{
+        margin-top: 80px;
+        background-color: white;
+        padding: 10px 15px 15px 15px;
+        border-radius: 7px;
+        width: 500px;
+    }
+    .find h1{
+        margin: 5px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .find p{
+        font-size: 18px;
+    }
+    .find input{
+        padding: 14px;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        font-size: 17px;
+        width: 500px;
+        box-sizing: border-box;
+    }
+    .cencel{
+        border: none;
+        padding: 12px 18px 12px 18px;
+        border-radius: 7px;
+        font-weight: bolder;
+        color: rgb(34, 34, 34);
+    }
+    .search{
+        border: none;
+        padding: 12px 18px 12px 18px;
+        border-radius: 7px;
+        font-weight: bolder;
+        background-color: #1B74E4;
+        color: rgb(255, 255, 255);
+    }
+    hr{
+        margin: 20px 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .buttonset{
+        display: flex;
+        justify-content: flex-end;
+    }
+</style>
+</html>

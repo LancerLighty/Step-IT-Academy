@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook - Log In</title>
+</head>
+<body>
+    <div class="theMain">
+        <div class="main">
+            <div class="title position1">
+                <div class="c">
+                    <h1>facebook</h1>
+                    <p>Connect with friends and the world</p>
+                    <p style="height: 0px;">around you on Facebook.</p>
+                </div>
+            </div>
+            <div class="logIn">
+                <div class="logIn1">
+                    <div class="input">
+                        <input type="text" placeholder="Email or phone number">
+                        <input type="text" placeholder="Password">
+                        <button class="Log-In"><strong>Log In</strong></button>
+                        <a href="index2.html">Forgot password?</a>
+                        <hr>
+                        <a href="signup.html">
+                            <button class="create">Create new account</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="page">
+                    <p style="font-size: 15px; margin-top: 25px; margin-left: 5%; width: 350px;"><strong>Create a Page</strong> for a celebrity, brand or business.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .create{
+        width: 210px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 19px;
+        background-color: rgb(42, 196, 62);
+    }
+    h1{
+        color:  rgb(38, 122, 248);
+        font-size: 60px;
+        margin-top: 0px;
+        margin-bottom: -15px;
+        height: 100px;
+    }
+    .c p{
+        font-weight: 500;
+        margin-top: 0px;
+        margin-bottom: -5px;
+        font-size: 25px;
+    }
+    .position1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 200px;
+    }
+    .logIn{
+        /* 800 */
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .input a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .logIn1{
+        text-align: center;
+        width: 380px;
+        display: flex;
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
+    .input{
+        width: 350px;
+        margin: 15px;
+        text-align: center;
+    }
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: lightgray;
+    }
+    .input button{
+        border: none;
+        color: white;
+    }
+    input{
+        width: 320px;
+        height: 23px;
+        padding: 13px;
+        border-radius: 7px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        border: 1px solid lightgray;
+    }
+    input:focus{
+        outline-color: 1px solid  rgb(25, 97, 253);
+    }
+    .Log-In{
+        width: 350px;
+        height: 47px;
+        border-radius: 7px;
+        font-size: 20px;
+        margin-bottom: 15px;
+        background-color: rgb(25, 97, 253);
+    }
+    body{
+        background-color: rgb(235, 235, 235);
+        width: 90%;
+    }
+    .main{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        height: 800px;
+        flex-wrap:wrap;
+        width: 100%;
+        margin-left: 5%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .title{
+        /* 33 */
+        margin-right:200px;
+        margin-left: 200px;
+        width: 400px; 
+        display: flex;
+    }
+    .theMain{
+        margin-top: 130px;
+    }
+    @media  screen and (max-width:1311px) {
+        .title{
+            text-align: center;
+            margin-left: 350px;
+        }
+        .title p{
+            width: 400px;
+        }
+        .main{
+            justify-content: center;
+            margin-top: -50px;
+            margin-left: 10px;
+        }
+        .position1{
+            justify-content: center;
+        }
+        .logIn{
+            margin-top: -70px;
+            margin-left: 100px;
+        }
+    }
+    /* @media screen and (max-width:1444px){
+        h1{
+            margin-bottom: -100px;
+            margin-left: -80px;
+            font-size: 40px;
+        }
+        hr{
+            width: 530px;
+            margin-left: -70px;
+        }
+        .c p{
+            display: none;
+        }
+        .title{
+            text-align: center;
+            margin-left: 280px;
+        }
+        .main{
+            justify-content: center;
+            margin-top: -50px;
+            margin-left: 10px;
+        }
+        .position1{
+            justify-content: center;
+        }
+        .logIn{
+            width: 528px;
+            margin-top: -70px;
+            margin-left: -150px;
+            justify-content: flex-start;
+        }
+        .create{
+            width: 300px;
+            margin-left: -30px;
+        }
+        .logIn1{
+            background-color: none;
+            box-shadow: none;
+        }
+        input{
+            margin-left: -90px;
+            width: 500px;
+        }
+        .logIn{
+            margin-top: -300px;
+        }
+        .Log-In{
+            margin-left: -90px;
+            width: 528px;
+        }
+        .input{
+            width: 800px;
+            box-sizing:none;
+            margin-left: 0px;
+        }
+        .input a{
+            margin-right: 60px;
+        }
+        body{
+            background-color: white;
+        }
+        .page{
+            display: none;
+        }
+    } */
+</style>
+</html>
