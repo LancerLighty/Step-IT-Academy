@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Create Your Account</title>
+</head>
+<body>
+    <div class="main">
+        <nav class="top">
+            <div class="left">
+                <i class="fa-solid fa-bars"></i>
+                <img class="f" src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/header_logo.png" alt="">
+                <img class="s" src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016">
+                <div class="links">
+                    <ul class="fl">
+                        <li class="hoverli"><a href="http://">STORE
+                            <ul class="hoverlu">
+                                <li class="li">HOME</li>
+                                <li class="li">DISCOVERY QUEUE</li>
+                                <li class="li">WISHLIST</li>
+                                <li class="li">POINTS SHOP</li>
+                                <li class="li">NEWS</li>
+                                <li class="li">STATS</li>
+                            </ul>
+                        </li>
+                        </a>
+                        <li class="hoverli"><a href="http://">COMMUNITY</a>
+                            <ul class="hoverlu">
+                                <li class="li">HOME</li>
+                                <li class="li">DISCOVERY QUEUE</li>
+                                <li class="li">WISHLIST</li>
+                                <li class="li">POINTS SHOP</li>
+                                <li class="li">NEWS</li>
+                                <li class="li">STATS</li>
+                            </ul></li>
+                        <li><a href="http://">ABOUT</a></li>
+                        <li"><a href="http://">SUPPORT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="r">
+                    <button><i class="fa-solid fa-download"></i>Instal Steam</button>
+                    <a href="http://">Login</a>
+                    <p>|</p>
+                    <select name="lan" id="lan">
+                        <option value="1">Language</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+        <div class="bottom">
+            <form class="tposition">
+                <div class="signup">
+                    <h1>CREATE YOUR ACCOUNT</h1>
+                    <label for="">Email Address</label>
+                    <input type="text">
+                    <label for="">Confirm your address</label>
+                    <input type="text">
+                    <label for="">Country of Residence</label>
+                    <select name="country" id="">
+                        <option value="1">Georgia</option>
+                    </select>
+                    <div class="captcha">
+                        <div class="chte">
+                            <div class="check">
+                                <input class="checkbox" type="checkbox">
+                            </div>
+                            <p>I'm not a robot</p>
+                        </div>
+                        <div class="recaptcha">
+                            <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="">
+                            <label>recaptcha</label>
+                            <p class="p2">Privacy - Terms</p>
+                        </div>
+                    </div>
+                    <div class="check2">
+                        <div class="pp">
+                            <p><input type="checkbox"> I am 13 years of age or older and agree to the terms of the <a href="http://">Steam Subscriber Agreement</a> and the <a href="http://"> Valve Privacy Policy.</a></p>
+                        </div>
+                    </div>
+                    <button><span style="text-shadow: 1px 1px 2px rgb(30, 82, 155);">Continue</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<style>
+    .hoverlu{
+        position: absolute;
+        margin: 10px;
+        list-style-type: none;
+        padding: 0px;
+        opacity: 0;
+        transition: 0.1s;
+        background-color: #171A21;
+        padding: 20px;
+        font-size: 12px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+    a{
+        color: #B8B6B4;
+    }
+    li{
+        margin-bottom: 10px;
+        color: #B8B6B4;
+    }
+    .hoverli:hover .hoverlu{
+        opacity: 1;
+    }
+    .li:hover {
+        color: white;
+    }
+    .fl{
+        display:flex;
+        list-style-type: none;  
+    }
+    body{
+        background:radial-gradient(30% 40% at 40% 30%, rgba(33, 36, 41, .5) 0%, rgba(33, 36, 41, 0) 100%) no-repeat, url( 'https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/acct_creation_bg.jpg' ) -20vw 0 no-repeat, #212429;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+    }
+    .f{
+        display: none;
+    }
+    .fa-solid, .fa-bars{
+        display: none;
+    }
+    .r i{
+        display: inline-block;
+    }
+    /* --------------------- bottom ------------------- */
+    .bottom{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .tposition{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: flex-start;
+        width: 930px;
+    }
+    .signup{
+        padding: 50px;
+        width: 700px;
+    }
+    h1{
+        font-weight: 100;
+        margin-bottom: 40px;
+        font-size: 35px;
+        color: white;
+    }
+    label, input{
+        display: block;
+    }
+    label{
+        margin: 40px 0px 3px 0px;
+        font-size: 14px;
+        color:#B8B6B4;
+    }
+    input{
+        padding: 10px 6px;
+        background-color: #32353C;
+        border: none;
+        width: 44%;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .bottom select{
+        padding: 8px 6px;
+        background-color: #32353C;
+        color: white;
+        width: 44%;
+        border-radius: 5px;
+        border: none;
+    }
+    .chte{
+        display: flex;
+        align-items: center;
+    }
+    .chte label{
+        font-size: 14px
+    }
+    .captcha{
+        border: 1px solid rgb(102, 102, 102);
+        background: rgb(31, 31, 31);
+        width: 44%;
+        border-radius: 3px;
+        margin-top: 25px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .captcha .check, .text, .recaptcha{
+        display: inline-block;
+    }
+    .recaptcha img{
+        padding: 0px 20px;
+        text-align: center;
+        width: 35px;
+    }
+    .recaptcha p, .recaptcha label{
+        margin: 0px 10px;
+        text-align: center;
+        font-size: 13px;
+        color: white;
+    }
+    .recaptcha .p2{
+        font-size: 9px;
+    }
+    input.checkbox{
+        width: 28px;
+        height: 28px;
+    }
+    .check2{
+        width: 100%;
+    }
+    .check2 p{
+        font-size: 15px;
+    }
+    .pp{
+        width: 100%;
+        margin-top:15px;
+    }
+    .pp p{
+        color:#B8B6B4;
+    }
+    .check2 input{
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin-bottom: 5px;
+    }
+    .check2 a{
+        color:#ffffff;
+    }
+    .bottom button{
+        margin-top: 25px;
+        width: 160px;
+        height: 35px;
+        font-size: 15px;
+        border: none;
+        color:#d1e1ff;
+        border-radius: 3px;
+        background-image: linear-gradient(to right, rgb(75, 168, 255) , rgb(0, 99, 212));
+    }
+    /* ---------------------- top---------------------- */
+    .top{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #171A21;
+    }
+    .left{
+        width: 630px;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right{
+        width:500px;
+        display:flex;
+        justify-content: center;
+    }
+    .right a, button, p{
+        margin: 5px;
+    }
+    .right p{
+        display: inline-block;
+        font-size: 10px;
+    }
+    .r{
+        width: 270px;
+    }
+    .top img{
+        width: 29%;
+        margin-right: 15px;
+    }
+    .left a{
+        font-size: small;
+        margin: 5px;
+    }
+    .right a:link{
+        font-size: 11px;
+        margin: 1px;
+        color:#B8B6B4;
+    }
+    .top p{
+        color: white;
+        margin: 5px;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    .top button{
+        background-color: rgb(93, 148, 56);
+        color: white;
+        padding: 6px 10px;
+        font-size: 11px;
+        margin-right: 0px;
+        border: none;
+    }
+    .top i{
+        padding-right: 15px;
+    }
+    .top select{
+        border-radius: 5px;
+        color: rgb(201, 201, 201);
+        background-color:  #171A21;
+        font-size: 12px;
+        width: 34%;
+        border: none;
+    }
+    @media screen and (max-width:1198px){
+        .f{
+            display: inline-block;
+        }
+        .s{
+            display: none;
+        }
+        .right{
+            display: none;
+        }
+        .links{
+            display: none;
+        }
+        .main{
+            justify-content: flex-start;
+        }
+        .top{
+            display: flex;
+            justify-content: flex-start;
+            padding: 4px;
+        }
+        .fa-solid, .fa-bars{
+            display: inline-block;
+            width: 35%;
+            font-size: 30px;
+        }
+        .left{
+            width: 100%;
+            margin: 10px;
+            margin-top: 0px;
+            justify-content: flex-start;
+        }
+        .left img{
+            margin-top: 10px;
+            width: 160px;
+        }
+        .signup{
+            padding: 17px;
+            padding-left: 0px;
+            width: 100%;
+        }
+        input{
+            width: 95%;
+        }
+        .bottom select{
+            width: 95%;
+        }
+        .captcha{
+            height: 80px;
+            width: 300px;
+        }
+        .recaptcha{
+            width: 80px;
+        }
+        .bottom button{
+            width: 95%;
+        }
+        body{
+            background: none;
+            background-color: #212429;
+        }
+        .pp{
+            width: 85%;
+        }
+    }
+</style>
+</html>
