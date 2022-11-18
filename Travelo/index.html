@@ -12,7 +12,16 @@
         <div class="top">
             <div class="menu">
                 <div class="menulogo">
-                    <p><i class="fa-solid fa-bars"></i> MENU</p>
+                    <label for="chk"><i class="fa-solid fa-bars"></i> MENU</label>
+                    <input type="checkbox" id="chk" style="display: none;">
+                    <ul class="menuul">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Destination</li>
+                        <li>Pages<i class="fa-sharp fa-solid fa-angle-down"></i>+</li>
+                        <li>Blog<i class="fa-sharp fa-solid fa-angle-down"></i>+</li>
+                        <li>Contact</li>
+                    </ul>
                 </div>
             </div>
             <div class="left">
@@ -53,11 +62,12 @@
                 <a class="search" href="http://"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
         </div>
-        <img src="https://preview.colorlib.com/theme/travelo/img/banner/banner2.png.webp" alt="">
-        <div class="textmainimg" >
-            <h3>Australia</h3>
-            <p>Pixel perfect design with awsome contents</p>
-            <button>Explore Now</button>
+        <div class="mainimg" >
+            <div class="maintext">
+                <h3>Australia</h3>
+                <p>Pixel perfect design with awsome contents</p>
+                <button>Explore Now</button>
+            </div>
         </div>
         <div class="bottom" style="background: #040E27; margin-top: -5px;">
             <div class="place">
@@ -80,29 +90,41 @@
         </div>
         <div class="bottom" style="margin-bottom: 100px">
             <div class="images">
-                <div class="img1">
-                    <img class="img1img" src="https://preview.colorlib.com/theme/travelo/img/destination/1.png.webp" alt="">
-                    <p class="img1p">Italy <button class="img1b">07 Places</button></p>
+                <div class="img" style="background-image: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url(https://preview.colorlib.com/theme/travelo/img/destination/1.png.webp);">
+                    <div class="imgtext">
+                        <p>Italy</p>
+                        <button>07 Places</button>
+                    </div>
                 </div>
-                <div class="img1">
-                    <img class="img1img" src="https://preview.colorlib.com/theme/travelo/img/destination/2.png.webp" alt="">
-                    <p class="img1p">Brazil <button class="img1b">03 Places</button></p>
+                <div class="img" style="background-image: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url(https://preview.colorlib.com/theme/travelo/img/destination/2.png.webp);">
+                    <div class="imgtext">
+                        <p>Brazil</p>
+                        <button>03 Places</button>
+                    </div>
                 </div>
-                <div class="img1">
-                    <img class="img1img" src="https://preview.colorlib.com/theme/travelo/img/destination/3.png.webp" alt="">
-                    <p class="img1p">america <button class="img1b">10 Places</button></p>
+                <div class="img" style="background-image: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url(https://preview.colorlib.com/theme/travelo/img/destination/3.png.webp);">
+                    <div class="imgtext">
+                        <p>America</p>
+                        <button>10 Places</button>
+                    </div>
                 </div>
-                <div class="img1">
-                    <img class="img1img" src="https://preview.colorlib.com/theme/travelo/img/destination/4.png.webp" alt="">
-                    <p class="img1p">Nepal <button class="img1b">02 Places</button></p>
+                <div class="img" style="background-image: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url(https://preview.colorlib.com/theme/travelo/img/destination/4.png.webp);">
+                    <div class="imgtext">
+                        <p>Nepal</p>
+                        <button>02 Places</button>
+                    </div>
                 </div>
-                <div class="img1">
-                    <img class="img1img" src="https://preview.colorlib.com/theme/travelo/img/destination/5.png.webp" alt="">
-                    <p class="img1p">Maldives <button class="img1b">02 Places</button></p>
+                <div class="img" style="background-image: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url(https://preview.colorlib.com/theme/travelo/img/destination/5.png.webp);">
+                    <div class="imgtext">
+                        <p>Maldives</p>
+                        <button>02 Places</button>
+                    </div>
                 </div>
-                <div class="img1">
-                    <img class="img1img" src="https://preview.colorlib.com/theme/travelo/img/destination/6.png.webp" alt="">
-                    <p class="img1p">Indonesia <button class="img1b">05 Places</button></p>
+                <div class="img" style="background-image: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url(https://preview.colorlib.com/theme/travelo/img/destination/6.png.webp);">
+                    <div class="imgtext">
+                        <p>Indonesia</p>
+                        <button>05 Places</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,6 +143,9 @@
     </div>
 </body>
 <Style>
+    .menuul{
+        display: none;
+    }
     .menu{
         display: none;
     }
@@ -237,35 +262,41 @@
         color: white;
     }
     /*----------mainimg--------*/
-    .main img{
+    .mainimg{
         width: 100%;
+        background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/banner2.png.webp);
+        height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .textmainimg{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -80%);
+    .maintext{
         text-align: center;
-        color: white;
     }
-    .textmainimg h3{
-        font-size: 150px;
-        font-family: cursive;
-        margin: 5px;
-    }
-    .textmainimg p {
-        font-size: 25px;
-        margin-top: 0px;
-    }
-
-    .textmainimg button{
-        margin-top: 30px;
+    .mainimg button{
+        text-align: center;
+        display: inline-block;
         border: none;
         background-color: #1EC6B6;
-        padding: 23px 45px;
         border-radius: 7px;
         color: white;
         font-size: 18px;
+        padding: 20px 45px;
+        margin-top: 20px;
+    }
+    .maintext h3{
+        font-size: 180px;
+        color: white;
+        font-family: cursive;
+        margin: 0px;
+    }
+    .maintext p{
+        font-size: 20px;
+        margin: 0px;
+        color: white;
     }
     /*----------bottom---------*/
     .bottom{
@@ -312,6 +343,51 @@
         border-radius: 5px;
     }
     /*--------Popular Destination--------*/
+    .images{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .img{
+        height: 300px;
+        width: 370px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 7px;
+        display: flex;
+        align-items: flex-end;
+        margin: 20px;
+        transition: 0.4s;
+    }
+    .img:hover{
+        margin-top: -5px;
+    }
+    .img:hover .imgtext p{
+        color: rgb(255, 73, 73);
+    }
+    .img:hover .imgtext button{
+        background-color: rgb(255, 73, 73);
+    }
+    .imgtext{
+        margin: 10px 25px;
+    }
+    .imgtext p, .imgtext button{
+        display: inline-block;
+        color: white;
+        transition: 0.4s;
+    }
+    .imgtext p{
+        font-size: 25px;
+    }
+    .imgtext button{
+        margin-left: 5px;
+        background-color: #1EC6B6;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
     .popdes{
         text-align: center;
         width: 600px;
@@ -327,97 +403,11 @@
         line-height: 28px;
         color: rgb(102, 102, 102);
     }
-    .images{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width: 70%;
-        height:600px;
-    }
-    .img1 p{
-        position: absolute;
-        margin-top: -55px;
-        padding: 0px 30px;
-        color: white;
-        font-size: 25px;
-        transition: 0.4s;
-    }
-    .img1 button{
-        border: none;
-        background-color: #1EC6B6;
-        padding: 6px 15px;
-        border-radius: 15px;
-        font-size: 15px;
-        margin-top: -10px;
-        color: white;
-        font-weight: 600;
-        transition: 0.4s;
-    }
-    .img1img{
-        position: relative;
-        z-index: -1;
-        /* width: 100%; */
-        box-sizing: border-box;
-        /* height: 100%; */
-    }
-    .img1{
-        box-shadow: #0d0d2bad 0px -150px 100px -40px inset;
-        border-radius: 5px;
-        height: 45%;
-    }
-    @media screen and (min-width:916px){
-        .img1{
-            transition: 0.4s;
-        }
-        .img1:hover{
-        margin-top: -15px;
-        }
-    }
-    .img1:hover .img1p{
-        color: rgb(235, 75, 75);
-    }
-    .img1:hover .img1b{
-        background-color: rgb(235, 75, 75);
-    }
     .sub{
-        width: 60%;
-        display: flex;
-        justify-content: space-between;
-        padding: 15px;
-        align-items: center;
-    }
-    .sub h1{
-        font-size: 28px;
-        color: white;
-        margin-bottom: 0px;
-    }
-    .sub .text{
-        width: 400px;
-    }
-    .text p{
-        font-size: 20px;
-        color: white;
-        margin-top: 10px;
-        line-height: 28px;
-    }
-    .subscribe{
-        display: flex;
+        display:flex;
         justify-content: center;
-    }
-    .subscribe input{
-        font-size: 18px;
-        padding: 15px;
-        width: 400px;
-        border-radius: 5px;
-        caret-color: black;
-        margin-right: 10px;
-    }
-    .subscribe input::placeholder{
-        color: rgb(214, 214, 214);
-    }
-    input{
-        border: none;
-        outline: none;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .subscribe button{
         background-color: rgb(235, 75, 75);
@@ -426,6 +416,18 @@
         padding: 16px 20px;
         font-size: 18px;
         border-radius: 5px;
+    }
+    .subscribe input{
+        width: 340px;
+        font-size: 17px;
+        padding: 17px;
+        border-radius: 5px;
+        border: none;
+    }
+    .sub h1{
+        font-size: 40px;
+        margin-right: 40px;
+        text-align: center;
     }
     @media screen and (max-width:1472px){
         .socialsites{
@@ -437,71 +439,33 @@
         .place h2{
             font-size: 20px;
         }
-        .textmainimg{
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -80%);
-        }
-        .img1 img{
-            height: 100%;
-        }
-        .img1{
-            height: 30%;
-        }
-        .images{
-            height: 700px;
-        }
         .sub{
             width: 80%;
         }
     }
     @media screen and (max-width:1190px){
-        .sub{
-            display:flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        .text, .sub input{
-            text-align: center;
-            display: block;
-        }
-        .textmainimg{
-            top: 30%;
-            width: 50%;
-            justify-content: center;
-        }
-        .textmainimg h3{
-            font-size: 400%;
-            left: 50%;
-            box-sizing: border-box;
-        }
-        .textmainimg button{
-            padding: 15px;
-            margin-top: 0px;
-        }
-        .textmainimg p{
-            font-size: 20px;
-        }
         .right, .left{
             display: none;
         }
         .top{
             justify-content: center;
             background-color: #ffffff;
-            height:75px
+            height: auto;
         }
         .menu{
             display: flex;
             background-color:#040E27;
             width: 95%;
-            height: 35px;
+            height: 50%;
             border-radius: 15px;
             align-items: center;
             padding: 15px;
+            margin: 10px;
         }
         .menulogo{
             color:rgb(78, 245, 209);
-            font-size: 30px;
+            font-size: 20px;
+            width: 100%;
         }
         .place{
             width: 80%;
@@ -510,39 +474,77 @@
             display: block;
             margin-bottom: 20px;
         }
-    }
-    @media screen and (max-width:915px){
-        .place{
-            width: 90%;
+        #chk:checked ~ .menuul{
+            display: block;
+            list-style-type: none;
+            font-size: 17px;
+            padding-left: 0px;
         }
-        .place input, .place select{
+        .menuul{
+            width:100%
+        }
+        
+        li{
+            padding: 5px;
+            transition: 0.5s;
+            border-radius: 5px;
+        }
+        li:hover{
+            background-color: white;
+            color:#040E27;
             width: 100%;
-            margin-bottom: 10px;
             box-sizing: border-box;
         }
-        .place button{
+    }
+    @media screen and (max-width: 916px){
+        .sub h1{
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+        .sub p{
+            margin: 5px;
+        }
+        .subscribe{
+            margin-top: -30px;
+        }
+        .maintext h3{
+            font-size: 50px;            
+        }
+        .maintext p{
+            font-size: 15px;
+        }
+        .maintext button{
+            padding: 10px 15px;
+        }
+        .mainimg{
+            height: 250px;
+        }
+        .place input, .place select{
             display: block;
+            width: 100%;
+            margin-bottom: 10px;
         }
-        .textmainimg{
-            top: 23%;
+        .place{
+            padding: 20px 0px;
         }
-        .textmainimg h3{
-            font-size: 200%;
+    }
+    @media screen and (max-width:640px){
+        .subscribe input{
+            padding: 10px;
+            width: 100%;
         }
-        .textmainimg button, .textmainimg p{
-            padding: 2%;
-            font-size: 90%;
+        .subscribe{
+            text-align: center;
         }
-        .images{
-            height: 100%;
+        .sub h1{
+            font-size: 25px;
+            margin: 0px;
         }
-        .img1{
-            margin: 50px;
-            
+        .sub p{
+            display: none;
         }
-        .img1:hover{
-            /* margin: 50px; */
-            width: 110%;
+        .subscribe button{
+            padding: 10px;
         }
     }
 </Style>
