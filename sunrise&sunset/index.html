@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>sunrice/sunset</title>
+</head>
+<body>
+    <div class="main">
+        <i class="fa-solid fa-cloud cloud1 maincloud"></i>
+        <i class="fa-solid fa-cloud cloud2 maincloud"></i>
+        <i class="fa-solid fa-sun sun"></i>
+        <i class="fa-sharp fa-solid fa-play mountain mainmountain"></i>
+        <i class="fa-sharp fa-solid fa-play mountain1 mainmountain"></i>
+        <i class="fa-sharp fa-solid fa-play mountain2 mainmountain"></i>
+        <i class="fa-sharp fa-solid fa-play mountain3 mainmountain"></i>
+        <i class="fa-sharp fa-solid fa-play mountain4 mainmountain"></i>
+        <i class="fa-sharp fa-solid fa-play mountain5 mainmountain"></i>
+    </div>
+</body>
+<style>
+    body{
+        margin: 0px;
+    }
+    .main{
+        width: 100%;
+        height: 900px;
+        animation: sky 10s infinite;
+    }
+    .cloud1{
+        font-size: 200px;
+        position: absolute;
+        margin: 20px;
+    }
+    .cloud2{
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 1000px;
+        font-size: 400px;
+    }
+    .sun{
+        position: absolute;
+        font-size: 250px;
+        color: rgb(255, 255, 131);
+        animation: sun 10s infinite;
+    }
+    .mountain{
+        margin-left: -10px;
+    }
+    .mountain1{
+        margin-left: 300px;
+    }
+    .mountain2{
+        margin-left: 600px;
+    }
+    .mountain3{
+        margin-left: 900px;
+    }
+    .mountain4{
+        margin-left: 1200px;
+    }
+    .mountain5{
+        margin-left: 1500px;
+    }
+    .mainmountain{
+        transform: rotate(270deg);
+        margin-top: 463px;
+        font-size: 500px;
+        position: absolute;
+        animation: mountain 10s infinite;
+    }
+    .maincloud{
+        animation: cloud 10s infinite;
+    }
+    @keyframes mountain{
+        0%{
+            color: rgb(26, 51, 39);
+        }
+        25%{
+            color: rgb(48, 107, 79);
+        }
+        50%{
+            color: rgb(89, 167, 129);
+        }
+        75%{
+            color: rgb(48, 107, 79);
+        }
+        100%{
+            color: rgb(26, 51, 39);
+        }
+    }
+    @keyframes sky{
+        0%{
+            background-color: rgb(33, 56, 75);
+        }
+        25%{
+            background-color: rgb(125, 169, 202);
+        }
+        50%{
+            background-color: rgb(130, 201, 255);
+        }
+        75%{
+            background-color: rgb(125, 169, 202);
+        }
+        100%{
+            background-color: rgb(33, 56, 75);
+        }
+    }
+    @keyframes cloud{
+        0%{
+            color: rgb(28, 44, 58);
+        }
+        25%{
+            color: rgb(66, 134, 179);
+        }
+        50%{
+            color: rgb(225, 233, 255);
+        }
+        75%{
+            color: rgb(66, 134, 179);
+        }
+        100%{
+            color: rgb(28, 44, 58);
+        }
+    }
+    @keyframes sun{
+        0%{
+            margin-left: 5%;
+            margin-top: 35%;
+            font-size: 230px;
+        }
+        25%{
+            margin-left: 15%;
+            margin-top: 10%;
+            font-size: 250px;
+        }
+        50%{
+            margin-left: 40%;
+            margin-top: 1%;
+            font-size: 250px;
+        }
+        75%{
+            margin-left: 60%;
+            margin-top: 10%;
+        }
+        100%{
+            margin-left: 80%;
+            margin-top: 36%;
+            font-size: 230px;
+        }
+    }
+</style>
+</html>
