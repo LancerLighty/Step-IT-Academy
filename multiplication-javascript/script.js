@@ -4,7 +4,6 @@
 // console.log(firstnum + ' - ' + secondnum + ' = ' + (firstnum-secondnum));
 // console.log(firstnum + ' * ' + secondnum, ' = ' + firstnum*secondnum);
 // console.log(firstnum + ' / ' + secondnum, ' = ' + firstnum/secondnum)
-
 function add(a,b){
     console.log(a + ' + ' + b + ' = ' + (a+b));
 }
