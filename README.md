@@ -1,1 +1,1 @@
-# HTML-CSS-Step-IT-Academy
+# Step-IT-Academy
