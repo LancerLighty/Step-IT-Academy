@@ -24,5 +24,4 @@ function everything(a,b){
 }
 var firstnum = Number(prompt());
 var secondnum = Number(prompt());
-console.log(firstnum, secondnum);
 everything(firstnum,  secondnum);
