@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 0px;">
+    <div class="center">
+        <table>
+            <tr>
+                <td class="td left top"></td>
+                <td class="td top"></td>
+                <td class="td right top"></td>
+            </tr>
+            <tr>
+                <td class="td left"></td>
+                <td class="td"></td>
+                <td class="td right"></td>
+            </tr>
+            <tr>
+                <td class="td left bottom"></td>
+                <td class="td bottom"></td>
+                <td class="td right bottom"></td>
+            </tr>
+        </table>
+        <div class="buttonpos">
+            <button onclick="retry()">retry?</button>
+        </div>
+        <p class="winMessage"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+<style>
+    .left{
+        border-left: none;
+    }
+    .top{
+        border-top: none;
+    }
+    .right{
+        border-right: none;
+    }
+    .bottom{
+        border-bottom: none;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    td{
+        width: 120px;
+        height: 120px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 60px;
+    }
+    table{
+        border-collapse: collapse;
+        display: flex;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+    .buttonpos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    button{
+       width: 370px;
+       height: 35px;
+       background-color: rgb(76, 235, 200);
+       border: none;
+       border-radius: 10px;
+       color: white;
+       font-size: 18px;
+       font-weight: 700;
+    }
+    button:focus{
+        background-color: rgb(62, 189, 147);
+    }
+</style>
+</html>
