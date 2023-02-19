@@ -1,5 +1,5 @@
 var tds = document.querySelectorAll('.td');
-var winCombinations = [[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [2,4,6]]
+var winCombinations = [[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [2,4,6]];
 var winMessage = document.querySelector('.winMessage');
 var playerX = true;
 for(let i of tds){
@@ -19,27 +19,50 @@ for(let i of tds){
     })
 }
 function checkwinner(tds){
-    // if(tds[0].innerText == tds[1].innerText && tds[0].innerText == tds[2].innerText && tds[0].innerText != ""){
-    //     console.log("winner")
-    // }
-    for(var x of winCombinations){
-        var booleanX = true;
-        var booleanO = true;
-        for(var y of x){
-                if(tds[y].innerText != "X"){
-                    booleanX = false;
-                }
-                if(tds[y].innerText != "O"){
-                    booleanO = false;
-                }
-        }
-        if(booleanX || booleanO){
-            winMessage.innerText = "game Won!";
-            for(var point of tds){
-                point.style.pointerEvents ="none";
-            }
+    for(var i = 0; i < 9; i +=3){
+        console.log(i, i + 1, i + 2);
+        if((tds[i].innerText == tds[i + 1].innerText) && (tds[i + 1].innerText == tds[i + 2].innerText)  && tds[i].innerText != ""){
+            winMessage.innerText = tds[i].innerText + " won the game!";
         }
     }
+    for(var i = 0; i < 3; i ++){
+        console.log(i ,i + 3, i + 6)
+        if((tds[i].innerText == tds[i + 3].innerText) && (tds[i + 3].innerText == tds[i + 6].innerText)  && tds[i].innerText != ""){
+            winMessage.innerText = tds[i].innerText + " won the game!";
+        }
+    }
+    if((tds[0].innerText == tds[4].innerText) && (tds[4].innerText == tds[8].innerText)  && tds[0].innerText != ""){
+        winMessage.innerText = tds[0].innerText + " won the game!";
+    }
+    if((tds[2].innerText == tds[4].innerText) && (tds[4].innerText == tds[6].innerText)  && tds[2].innerText != ""){
+        winMessage.innerText = tds[2].innerText + " won the game!";
+    }
+    // if(tds[0].innerText == tds[1].innerText && tds[0].innerText == tds[2].innerText && tds[0].innerText != ""){
+    //     winMessage.innerText = tds[0].innerText + " won the game!";
+    // }
+    // for(var x of winCombinations){
+    //     var booleanX = true;
+    //     var booleanO = true;
+    //     for(var y of x){
+    //             if(tds[y].innerText != "X"){
+    //                 booleanX = false;
+    //             }
+    //             if(tds[y].innerText != "O"){
+    //                 booleanO = false;
+    //             }
+    //     }
+    //     if(booleanX || booleanO){
+    //         if(playerX == false){
+    //             winMessage.innerText = "X won the game!";
+    //         } else {
+    //             winMessage.innerText = "O won the game!";
+    //         }
+    //         for(var point of tds){
+    //             point.style.pointerEvents ="none";
+    //         }
+    //     }
+    // }
+    // var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 }
 var retrybutton = Document.querySelector('.retry');
 function retry(){
@@ -49,4 +72,5 @@ function retry(){
         i.style.pointerEvents ="all";
     }
     winMessage.innerText = "";
+    playerX = true;
 }
