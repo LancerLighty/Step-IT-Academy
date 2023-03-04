@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+            <div class="registerStudent">
+                <h3 style="text-align: center;">Register New Student:</h3>
+                <form action="#">
+                    <label for="">Enter First Name:</label>
+                    <input class="fName" type="text" required>
+                    <label for="">Enter Last Name:</label>
+                    <input class="lName"  type="text" required>
+                    <label for="faculty">faculty</label>
+                    <select name="faculty" class="faculty" required>
+                        <option value="Sciences and Arts">Sciences and Arts</option>
+                        <option value="Natural Sciences and Medicine">Natural Sciences and Medicine</option>
+                        <option value="Business, Technology and Education">Business, Technology and Education</option>
+                        <option value="law">law</option>
+                    </select>
+                    <button>register</button>
+                </form>
+            </div>
+            <div class="table">
+                <table style="border-collapse: collapse;">
+                    <tr>
+                        <th class="stud">Student</th>
+                        <th class="fac">Faculty</th>
+                        <th class="geo">Georgian</th>
+                        <th class="eng">English</th>
+                        <th class="math">Math</th>
+                        <th class="his">History</th>
+                        <th class="ave">AVG</th>
+                    </tr>
+                </table>
+                <!-- <p>max grade:</p>
+                <p class="max"></p>
+                <p>min grade:</p>
+                <p class="min"></p> -->
+            </div>
+    </div>
+    <script src="classStudent.js"></script>
+</body>
+</html>
