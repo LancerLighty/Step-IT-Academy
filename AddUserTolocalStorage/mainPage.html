@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="signUp">
+            <div class="signOut">
+            <a href="logInpage.html"class="signOutButton"><i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+            <h2></h2>
+            <hr>
+            <p style="color: rgb(100, 83, 255);">do you want to change password?</p>
+            <form action="#">
+                <label for="">enter password:</label>
+                <input class="pass" type="text" required>
+                <label for="">repeat password:</label>
+                <input class="repeatPass" type="text" required>
+                <p id="inc"></p>
+                <button>change</button>
+            </form>
+        </div>
+    </div>
+    <script src="mainpage.js"></script>
+</body>
+<style>
+    h2{
+        margin-top: 15px;
+    }
+    .signOut{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 17px;
+        margin-right: 10px;
+    }
+    .signOutButton{
+        color: rgb(29, 165, 255);
+    }
+    .signOutButton:hover{
+        color: rgb(13, 130, 255);
+    }
+</style>
+</html>

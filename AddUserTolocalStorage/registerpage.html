@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="signUp">
+            <h2>Sign Up</h2>
+            <hr>
+            <form action="mainPage.html">
+                <label for="">enter email:</label>
+                <input class="email" type="text" required>
+                <label for="">enter password:</label>
+                <input class="pass" type="text" required>
+                <label for="">repeat password:</label>
+                <input class="repeatPass" type="text" required>
+                <p id="errorP"></p>
+                <button>sign </button>
+                <p class="logIn">already have account?<a href="logInpage.html">log In</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="registerpage.js"></script>
+</body>
+<style>
+    a{
+        color:rgb(0, 68, 255);
+        font-size: 13px;
+    }
+    a:hover{
+        color:rgb(0, 0, 255);
+    }
+    .logIn{
+        font-size: 13px; 
+        color:rgb(0, 0, 0)
+    }
+</style>
+</html>

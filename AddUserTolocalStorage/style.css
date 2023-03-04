@@ -1,0 +1,90 @@
+.signUp{
+    width: 270px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.694);
+}
+a{
+    font-size: 13px;
+}
+button{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: rgb(29, 165, 255);
+    border: 0px;
+    color: white;
+    border-radius:5px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(19, 139, 219);
+    cursor: pointer;
+}
+hr{
+    margin-bottom: 0px;
+    width: 270px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 13px;
+    margin: 10px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20px;
+    color: rgb(255, 70, 70);
+}
+h2{
+    text-align: center;
+    margin: 35px 0px 20px;
+}
+form{
+    padding: 20px 15px;
+}
+.main{
+    display: flex;
+    /* background-image: url(https://images.unsplash.com/photo-1663544093574-4cc2eb15cca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60); */
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    margin: 0px;
+}
+input{
+    width: 100%;
+    padding: 5px 3px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+    outline: 1px solid rgb(0, 162, 255);
+}
+input:hover{
+    outline: 1px solid rgb(137, 212, 255);
+}
+label{
+    display: block;
+    margin: 13px 0px 2px 0px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
