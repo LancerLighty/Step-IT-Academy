@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="div">
+            <form action="#" class="reg">
+                <h1>register</h1>
+                <label for="">მოდელი</label>
+                <input type="text" class="model" required>
+                <label for="">გამოშვების წელი</label>
+                <input type="text" class="year" required>
+                <label for="">კატეგორია</label>
+                <select name="" id="category">
+                    <option value="">CHOOSE</option>
+                    <option value="ჯიპი">ჯიპი</option>
+                    <option value="სედანი">სედანი</option>
+                    <option value="კაბტიოლეტი">კაბრიოლეტი</option>
+                </select>
+                <label for="">საჭე</label>
+                <select name="" id="wheel">
+                    <option value="">CHOOSE</option>
+                    <option value="მარჯვნივ">მარჯვნივ</option>
+                    <option value="მარცხნივ">მარცხნივ</option>
+                </select>
+                <label for="">საწვავი</label>
+                <select name="" id="fuel">
+                    <option value="">CHOOSE</option>
+                    <option value="ჰიბრიდი">ჰიბრიდი</option>
+                    <option value="დიზელი">დიზელი</option>
+                </select>
+                <button>register</button>
+            </form>
+            <form action="#" class="search">
+                <h1>search</h1>
+                <label for="">მოდელი</label>
+                <input type="text" class="model2">
+                <label for="">გამოშვების წელი</label>
+                <input type="text" class="year2">
+                <label for="">კატეგორია</label>
+                <select name="" id="category2">
+                    <option value="">CHOOSE</option>
+                    <option value="ჯიპი">ჯიპი</option>
+                    <option value="სედანი">სედანი</option>
+                    <option value="კაბტიოლეტი">კაბრიოლეტი</option>
+                </select>
+                <label for="">საჭე</label>
+                <select name="" id="wheel2">
+                    <option value="">CHOOSE</option>
+                    <option value="მარჯვნივ">მარჯვნივ</option>
+                    <option value="მარცხნივ">მარცხნივ</option>
+                </select>
+                <label for="">საწვავი</label>
+                <select name="" id="fuel2">
+                    <option value="">CHOOSE</option>
+                    <option value="ჰიბრიდი">ჰიბრიდი</option>
+                    <option value="დიზელი">დიზელი</option>
+                </select>
+                <button>search</button>
+            </form>
+        </div>
+        <div class="res">
+            <table>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<style>
+    label{
+        display: block;
+        margin: 5px 0px 3px;
+    }
+    .div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    form{
+        margin-top: 20px;
+        background-color: rgb(154, 203, 235);
+        padding: 20px;
+        width: 220px;
+        margin: 20px calc(100%/25);
+    }
+    button{
+        display: block;
+        width: 100%;
+        margin: 10px 0px 20px;
+        height: 25px;
+        font-size: 16px;
+        border: none;
+        background-color: rgb(53, 53, 231);
+        color: white;
+        cursor: pointer;
+    }
+    select, input{
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        border: initial;
+        outline: none;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        padding: 3px 5px;
+    }
+    .main{
+        min-height: 100vh;
+        background-color: rgb(255, 255, 255);
+    }
+    body{
+        margin: 0px;
+    }
+    .res{
+        display: flex;
+        justify-content: center;
+    }
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        min-width: 500px;
+        text-align: center;
+        border-radius: 1115px;
+    }
+    td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+</style>
+</html>
