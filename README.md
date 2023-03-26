@@ -3,4 +3,5 @@
 ### what i learned in this Academy:
 - HTML;
 - CSS;
-- JavaScript.
+- JavaScript;
+- Angular.
