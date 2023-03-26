@@ -1,0 +1,28 @@
+<!-- <h1>{{fname}}</h1>
+<input type="text" name="" [(ngModel)] = "lname" id="">
+<h1>{{lname}}</h1>
+
+<input [(ngModel)]="info" type="text" name="" id="">
+<h1 *ngIf="clicked == true">{{info}}</h1>
+<button (click)="save()">button</button> -->
+<label for="">Email:</label>
+<input [(ngModel)]="email" type="text">
+<label for="">Age:</label>
+<input [(ngModel)]="age" type="text">
+<label for="">Password:</label>
+<input [(ngModel)]="Password" type="text">
+<label for="">Repeat Password:</label>
+<input [(ngModel)]="RepeatPassword" type="text">
+<button (click)="save()">register</button>
+
+<select [(ngModel)]="sorting" name="" (change)="sort()" id="">
+  <option value="zrdadobit">zrdadobit</option>
+  <option value="klebadobit">klebadobit</option>
+</select>
+<div class="cards">
+  <div class="card" *ngFor="let i of arr">
+    <h1>email:{{i.email}}</h1>
+    <h2>age: {{i.age}}</h2>
+    <h2>password: {{i.password}}</h2>
+  </div>
+</div>

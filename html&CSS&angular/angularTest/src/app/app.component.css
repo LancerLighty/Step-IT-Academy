@@ -1,0 +1,20 @@
+label, input, button{
+    display: block;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.card{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:3px;
+    color: white;
+    background-color: rgb(52, 58, 115);
+}
+label{
+    margin: 7px 0px 2px;
+}

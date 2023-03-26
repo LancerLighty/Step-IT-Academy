@@ -4,7 +4,6 @@ var btn = document.querySelector("button")
 var product = document.querySelector(".product")
 fetch("http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline")
 .then(x=>{
-  console.log(x)
     return x.json()
 })
 .then(arr=>{
