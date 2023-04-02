@@ -1,0 +1,28 @@
+label,select{
+    display: block;
+}
+label{
+    margin: 12px 0px 1px 0px;
+}
+select,input{
+    width: 170px;
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 3px;
+}
+select{
+    margin-top: 15px;
+    cursor: pointer;
+}
+button{
+    width: 170px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(55, 92, 255);
+    color: white;
+    cursor: pointer;
+}
+p{
+    margin: 5px 0px;
+    color: rgb(220, 0, 0);
+}

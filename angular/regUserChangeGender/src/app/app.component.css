@@ -1,0 +1,20 @@
+/* .tables{
+    display: flex;
+    justify-content: space-between;
+}
+tr{
+    display: block;
+} */
+td{
+    border: 1px solid black;
+    width: 200px;
+}
+table{
+    border-collapse: collapse;
+}
+.f{
+    background-color: red;
+}
+.m{
+    background-color: blue;
+}

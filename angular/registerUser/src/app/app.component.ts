@@ -6,13 +6,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularTest';
-  // fname = "tekle";
-  // lname = "skdjb"
-  // info:string =""
-  // clicked:boolean = false
-  // save(){
-  //   this.clicked = true
-  // }
   email = "";
   Password = "";
   age = "";

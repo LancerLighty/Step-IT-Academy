@@ -1,0 +1,37 @@
+<div class="row col-md-9 col-lg-6 col-11 m-auto mt-2"> 
+  <input [(ngModel)]="myUser.fname" type="text" class="form-control mt-2" placeholder="firstname" /> 
+  <input [(ngModel)]="myUser.lname" type="text" class="form-control mt-2" placeholder="lastname" /> 
+  <select [(ngModel)]="myUser.gender" class="form-select mt-2"> 
+    <option value="">Select gender</option> 
+    <option value="male">Male</option> 
+    <option value="female">Female</option> 
+  </select> 
+  <button (click)="addUser()" class="btn btn-dark d-block m-auto mt-3 col-6"> Save </button>
+</div>
+<!-- <div class="main">
+  <div class="card" *ngFor= "let i of arr">
+    <h1>{{i.fname}}</h1>
+    <h1>{{i.lname}}</h1>
+    <h1>{{i.gender}}</h1>
+  </div>
+</div> -->
+<div class="tables">
+<div class="cards" *ngFor= "let i of arr">
+  <!-- <div class="card" style="background-color: blue;" *ngIf= "i.gender === 'male'"> pirveli gza --> 
+  <!-- <div class="card" [ngStyle] = "{'background-color': i.gender == 'male' ? 'blue' : ''}">
+    <h1>{{i.fname}}</h1>
+    <h1>{{i.lname}}</h1>
+    <h1>{{i.gender}}</h1>
+  </div>
+  <div class="card" style="background-color: red;" *ngIf= "i.gender === 'female'">
+    <h1>{{i.fname}}</h1>
+    <h1>{{i.lname}}</h1>
+    <h1>{{i.gender}}</h1>
+  </div> -->
+  <div class="card" [ngClass]="i.gender == 'female' ? 'f' : 'm'">
+    <h1>{{i.fname}}</h1>
+    <h1>{{i.lname}}</h1>
+    <h1>{{i.gender}}</h1>
+  </div>
+</div>
+</div>

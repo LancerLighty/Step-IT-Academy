@@ -1,0 +1,11 @@
+<label for="">Enter Server Name:</label>
+<input class="form-control" [(ngModel)] = "newServer.name" placeholder="Name" type="text">
+<label for="">Enter Monthly Pay:</label>
+<input class="form-control" [(ngModel)] = "newServer.pay" placeholder="Pay" type="text">
+<select class="custom-select" [(ngModel)] = "newServer.status" name="" id="">
+    <option value="">Select Status</option>
+    <option value="Online">Online</option>
+    <option value="Offline">Offline</option>
+</select>
+<p>{{error}}</p>
+<button (click)="register()">register</button>

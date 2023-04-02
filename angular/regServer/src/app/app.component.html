@@ -1,0 +1,2 @@
+<app-register (addServerEmitter)="addNewServer($event)"></app-register>
+<app-card *ngFor="let i of servers" [getServer]="i"></app-card>
