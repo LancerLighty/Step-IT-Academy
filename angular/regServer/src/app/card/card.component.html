@@ -1,5 +1,8 @@
-<div class="card">
-    <h1>{{getServer.name}}</h1>
-    <h1>{{getServer.pay}}</h1>
-    <h1>{{getServer.status}}</h1>
+<div class="card" [ngClass]="getServer.status == 'Online' ? 'online' : 'offline'" >
+    <h1>Server name: {{getServer.name}}</h1>
+    <h1>Monthly Pay: {{getServer.pay}}</h1>
+    <h1>Status: <span [ngClass]="getServer.status == 'Online' ? 'blue' : 'red'">{{getServer.status}}</span></h1>
+    <p>change status to:</p>
+    <button (click)="changeToOnline()">Online</button>
+    <button (click)="changeToOffline()">Offline</button>
 </div>

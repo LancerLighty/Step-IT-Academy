@@ -1,0 +1,26 @@
+.card{
+    padding: 5px;
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+}
+h1{
+    font-size: 16px;
+}
+p{
+    margin-bottom: 3px;
+}
+.online{
+    border: 1px solid rgb(87, 87, 255);
+    box-shadow: 5px 5px 5px 5px rgba(21, 21, 169, 0.547);
+}
+.offline{
+    border: 1px solid rgb(255, 87, 101);
+    box-shadow: 5px 5px 5px 5px rgba(169, 21, 26, 0.547);
+}
+.red{
+    color: rgb(255, 87, 101);
+}
+.blue{
+    color: rgb(87, 87, 255);
+}

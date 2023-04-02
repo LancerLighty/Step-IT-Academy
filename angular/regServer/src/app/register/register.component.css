@@ -1,4 +1,4 @@
-label,select{
+label,select, button{
     display: block;
 }
 label{
@@ -15,6 +15,7 @@ select{
     cursor: pointer;
 }
 button{
+    margin-top: 5px;
     width: 170px;
     padding: 4px;
     border: none;
@@ -23,6 +24,9 @@ button{
     cursor: pointer;
 }
 p{
-    margin: 5px 0px;
+    margin: 5px 0px 0px;
     color: rgb(220, 0, 0);
+    font-size: 12px;
+    width: 170px;
+    text-align: center;
 }

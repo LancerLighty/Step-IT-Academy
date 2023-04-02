@@ -9,4 +9,11 @@ import { Server } from '../server.model';
 export class CardComponent {
   @Input()
   getServer:Server = new Server();
+  changeToOnline(){
+    this.getServer.status = "Online"
+    console.log(this.getServer)
+  }
+  changeToOffline(){
+    this.getServer.status = "Offline"
+  }
 }

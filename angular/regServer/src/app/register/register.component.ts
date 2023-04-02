@@ -7,7 +7,7 @@ import { Server } from '../server.model';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-  error:string = "terkle"
+  error:string = ""
   newServer:Server = new Server();
   @Output()
   addServerEmitter:EventEmitter<Server> = new EventEmitter();
@@ -16,6 +16,8 @@ export class RegisterComponent {
       this.addServerEmitter.emit(this.newServer)
       console.log(this.newServer)
       this.newServer = new Server()
+    } else {
+      this.error = "make sure you filled all inputs"
     }
   }
 }
