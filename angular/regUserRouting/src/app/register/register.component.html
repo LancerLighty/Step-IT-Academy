@@ -1,0 +1,9 @@
+<p>register works!</p>
+<label for="">First Name:</label>
+<input [(ngModel)]="newUser.fname" placeholder="First Name" type="text">
+<label for="">Last Name:</label>
+<input [(ngModel)]="newUser.lname" placeholder="Last Name" type="text">
+<label for="">Email:</label>
+<input [(ngModel)]="newUser.email" placeholder="Email" type="text">
+<p class="error">{{error}}</p>
+<button (click)="register()">register</button>

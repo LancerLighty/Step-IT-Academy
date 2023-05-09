@@ -1,0 +1,21 @@
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0b0e12;
+    padding: 10px !important;
+}
+#color{
+    color: gray !important;
+    text-decoration: none;
+}
+#color:focus{
+    color: white !important;
+}
+.active-link{
+    color: gray;
+}

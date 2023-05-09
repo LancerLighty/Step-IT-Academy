@@ -1,0 +1,26 @@
+label, input, button{
+    display: block;
+}
+input, select{
+    width: 200px;
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid #b9bdc1;
+    border-radius: 5px;
+}
+label{
+    margin-top: 10px;
+}
+button{
+    margin-top: 15px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(56, 76, 255);
+}
+h1{
+    font-size: 23px;
+}

@@ -1,0 +1,5 @@
+<p>home works!</p>
+<input [(ngModel)]="newUser.fname" type="text">
+<input [(ngModel)]="newUser.lname" type="text">
+<button (click)="save()">register</button>
+<button *ngFor="let i of user" [routerLink]="['/iner', i.fname, i.lname]">{{i.fname}}</button>

@@ -1,0 +1,11 @@
+<h1>add New Task in to-do List</h1>
+<label for="">Name the Task:</label>
+<input class="form-control" [(ngModel)]="newTask.name" type="text" placeholder="Set Name">
+<label for="">Select Status</label>
+<select class="custom-select" [(ngModel)]="newTask.status" name="" id="">
+    <option value="">Status</option>
+    <option value="toDo">to-do</option>
+    <option value="inProgress">in progress</option>
+    <option value="done">done</option>
+</select>
+<button (click)="AddNewTask()">Add Task</button>

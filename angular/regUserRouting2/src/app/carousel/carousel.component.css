@@ -1,0 +1,13 @@
+#carouselExampleDark,  .carousel-inner, .carousel-item{
+    height: 90vh;
+}
+img{
+    width: auto !important;
+    height: 100%;
+}
+.pos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}

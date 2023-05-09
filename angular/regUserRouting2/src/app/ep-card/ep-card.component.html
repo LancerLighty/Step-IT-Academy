@@ -1,0 +1,11 @@
+<p>ep-card works!</p>
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5>{{info.name}}</h5>
+        <h6>created: {{info.created}}</h6>
+        <div class="episodes" *ngFor="let i of characters">
+            <!-- <a class="ep" href="#">{{i}}</a> -->
+            <a href="#" class="btn btn-primary" [routerLink]="['/characters',i.url]">{{i.name}}</a>
+        </div>
+    </div>
+</div>

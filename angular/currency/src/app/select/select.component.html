@@ -1,0 +1,16 @@
+<p>select works!</p>
+<div class="pos">
+    <div class="from">
+        <select [(ngModel)]="options.from" name="" id="" >
+            <option value="{{i}}" *ngFor="let i of all">{{i}}</option>
+        </select>
+        <input [(ngModel)]="options.amount" placeholder="Enter Amount" type="text">
+    </div>
+    <div class="to">
+        <select [(ngModel)]="options.to" name="" id="" >
+            <option value="{{i}}" *ngFor="let i of all">{{i}}</option>
+        </select>
+        <input type="text" value="{{result}}" readonly>
+    </div>
+</div>
+<button (click)="change()">change</button>

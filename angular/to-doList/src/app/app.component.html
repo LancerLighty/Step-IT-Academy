@@ -1,0 +1,3 @@
+<app-add-task (addTaskEmiter)="addNewTask($event)"></app-add-task>
+<app-count [toDo]="toDo" [inProgress]="inProgress" [done]="done" ></app-count>
+<app-to-do-list *ngFor="let i of ToDoList" [getTask]="i"></app-to-do-list>

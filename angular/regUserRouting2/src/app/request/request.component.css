@@ -1,0 +1,19 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.padding{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pos{
+    display: flex;
+    justify-content: center;
+}
+app-search{
+    width: 100%;
+    box-sizing: border-box;
+}

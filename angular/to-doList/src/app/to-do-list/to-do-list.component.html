@@ -1,0 +1,11 @@
+<div class="card">
+    <h1>Task name: {{getTask.name}}</h1>
+    <h1>Status: {{getTask.status}}</h1>
+    <h1>change Status:</h1>
+    <select [(ngModel)]="newStatus" (change)="changeStatus()" name="" id="">
+        <option value="">Status</option>
+        <option value="toDo">to-do</option>
+        <option value="inProgress">in progress</option>
+        <option value="done">done</option>
+    </select>
+</div>

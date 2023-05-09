@@ -1,0 +1,15 @@
+<div *ngIf="(info.name.toLowerCase().includes(nameS.toLowerCase())) && (info.gender.includes(genderS))" class="card" style="width: 18rem;">
+    <img src="{{info.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h3>{{info.name}}</h3>
+        <h6>{{info.location.name}}</h6>
+        <h6 style="margin-top: 30px;">{{info.species}}</h6>
+        <hr>
+        <h6>{{info.gender}}</h6>
+        <hr>
+        <h6>{{info.status}}</h6>
+        <hr>
+        <a href="#" class="btn btn-primary" [routerLink]="['/alters',info.name,info.status]">Show All Alters</a>
+        <a href="#" class="btn btn-primary" [routerLink]="['/episodes',info.name,info.status]">Show All Episodes</a>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+.from, .to{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    background-color: aqua;
+}
+.pos{
+    display: flex;
+}
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+}
+input{
+    height: 70px;
+    font-size: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(0, 0, 61);
+}
+input:focus{
+    border: 1px solid rgb(0, 0, 255);
+    outline: none;
+}
+select{
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+button{
+    border: none;
+    background-color: rgb(78, 128, 255);
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
