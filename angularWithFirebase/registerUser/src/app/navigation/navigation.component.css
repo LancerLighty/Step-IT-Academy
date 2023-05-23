@@ -1,0 +1,25 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(109, 109, 109);
+    margin: 0px 10px;
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    box-shadow: 0px 1px 10px 1px rgb(165, 207, 237);
+}

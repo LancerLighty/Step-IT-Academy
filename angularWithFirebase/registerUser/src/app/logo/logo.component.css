@@ -1,0 +1,14 @@
+img{
+    height: 30px;
+    display: inline-block;
+}
+.position{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+h4{
+    height: 100%;
+    margin: 0px 5px;
+    margin-top: -2px;
+}

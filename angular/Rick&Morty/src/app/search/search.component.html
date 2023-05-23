@@ -1,0 +1,9 @@
+<div class="search">
+    <h1>All Rick And Morty Characters</h1>
+    <input [(ngModel)]="name" (ngModelChange)="onInputChange()"  class="form-control" placeholder="Enter character name" type="text">
+    <select [(ngModel)]="gender" (ngModelChange)="onSelectChange()"  class="form-control" name="" id="">
+        <option value="">All</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+</div>

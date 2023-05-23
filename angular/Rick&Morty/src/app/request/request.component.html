@@ -1,0 +1,9 @@
+<app-carousel [result]="sliderArr"></app-carousel>
+<div class="pos">
+    <div class="padding">
+        <app-search (onInput)="name = $event" (onSelect)="gender = $event"></app-search>
+        <div class="cards">
+            <app-req-card *ngFor="let i of results" [nameS]="name" [genderS]="gender" [info]="i"></app-req-card>
+        </div>
+    </div>
+</div>

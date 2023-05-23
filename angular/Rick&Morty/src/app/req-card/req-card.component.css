@@ -1,0 +1,33 @@
+.card{
+    border: 1px solid black;
+    width: 300px;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #242b35;
+}
+.btn{
+    background-color: #171c23;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    text-align: center !important;
+    display: inline-block;
+    width: 95%;
+}
+.card-body{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+hr{
+    width: 100%;
+    margin: 10px 0px 10px;
+}
+h6, h3{
+    margin: 0px;
+    margin-left: 20px;
+    width: 100%;
+
+}
