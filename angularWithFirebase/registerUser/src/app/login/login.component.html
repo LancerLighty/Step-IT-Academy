@@ -1,0 +1,9 @@
+<h1>log In</h1>
+<label for="">Enter Email:</label>
+<input [(ngModel)]="email" type="text" placeholder="password">
+<label for="">Enter Password</label>
+<input [(ngModel)]="password" type="text" placeholder="password">
+<a routerLink="/forgotPassword">forgot password?</a>
+<button (click)="logIn()">log In</button>
+<a (click)="signInWithGoogle()">signin with google</a>
+<a>don't have an account? <span href="" routerLink="/register">Register</span></a>

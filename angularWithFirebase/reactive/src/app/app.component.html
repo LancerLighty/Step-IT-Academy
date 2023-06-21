@@ -1,0 +1,44 @@
+<h1>Job Form</h1>
+<form [formGroup]="jobForm">
+   <button (click)="addNewJob()" class="btn btn-primary mt-2">Add new Job</button>
+   <div formArrayName="jobs">
+      <div *ngFor="let i of getJobs().controls; let jobIndex = index">
+         <div [formGroupName]="jobIndex">
+             <button (click)="deleteJob(jobIndex)" class="btn btn-danger mt-2">Delete Job</button>
+             <div class="form-group mt-2">
+                <label for="">Enter Company Name</label>
+                <input type="text" class="form-control" formControlName="companyName">
+             </div>
+             <div class="form-group mt-2">
+                <label for="">Enter Company Description</label>
+                <input type="text" class="form-control" formControlName="companyDescription">
+           </div>
+           <button (click)="addNewExp(jobIndex)" class="btn btn-success mt-2">Add New Experience</button>
+           <div formArrayName="workExps">
+           <div *ngFor="let i of getWorkExps(jobIndex).controls; let expIndex=index">
+            <div [formGroupName]="expIndex">
+              <button class="btn btn-danger mt-2" (click)="deleteWorkExps(jobIndex,expIndex)">Delete Experience</button>
+              <div class="form-group mt-2">
+                <label for="">Enter Position</label>
+                <input type="text" class="form-control" formControlName="position">
+             </div>             
+             <div class="form-group mt-2">
+              <label for="">Enter Start Date</label>
+              <input type="text" class="form-control" formControlName="startDate">
+           </div>             
+           <div class="form-group mt-2">
+            <label for="">Enter End Date</label>
+            <input type="text" class="form-control" formControlName="endDate">
+         </div>
+            </div>
+
+           </div>
+         </div>
+      </div>
+    </div>
+   </div>
+  <button *ngIf="save" class="btn btn-dark d-block col-6 m-auto mt-2"
+  (click)="onFormSubmit()">
+    Save
+  </button>
+</form>

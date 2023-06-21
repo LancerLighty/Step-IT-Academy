@@ -1,0 +1,42 @@
+<h1>Job Form</h1>
+<form [formGroup]="jobForm">
+  <button (click)="addNewJob()" class="btn btn-primary mt-2">add new job</button>
+  <div formArrayName="jobs">
+    <div *ngFor="let i of getJobs().controls; let jobIndex = index">
+      <div [formGroupName]="jobIndex">
+        <button (click)="deleteJob(jobIndex)" class="btn btn-danger mt-2">delete Job</button>
+        <div class="form-group mt-2">
+          <label for="">Enter Company Name</label>
+          <input type="text" class="form-control" formControlName="companyName">
+        </div>
+        <div class="form-group mt-2">
+          <label for="">Enter Company Description</label>
+          <input type="text" class="form-control" formControlName="companyDescription">
+        </div>
+       </div> <!-- <=shecdoma -->
+      <button (click)="addNewExp(jobIndex)" class="btn btn-succes mt-2">Add New Experience</button>
+      <div  formArrayName="workExps">
+        <div *ngFor="let i of getWorkExps(jobIndex).controls; let expIndex = index">
+          <div [formGroupName]="expIndex">
+          <button class="btn btn-danget mt-2" (click)="deleteWorkExps(jobIndex, expIndex)">Delete Experience</button>
+              <div class="form-group mt-2">
+                <label for="">Enter position</label>
+                <input type="text" class="form-control" formControlName="position">
+              </div>
+              <div class="form-group mt-2">
+                <label for="">Enter start Date</label>
+                <input type="text" class="form-control" formControlName="startDate">
+              </div>
+              <div class="form-group mt-2">
+                <label for="">Enter end Date</label>
+                <input type="text" class="form-control" formControlName="endDate">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" (click)="onFormSubmit()">
+    save
+  </button>
+</form>

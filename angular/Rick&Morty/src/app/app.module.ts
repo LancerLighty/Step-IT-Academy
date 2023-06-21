@@ -19,6 +19,7 @@ import { CharactersComponent } from './characters/characters.component';
 import { EpCardComponent } from './ep-card/ep-card.component';
 import { GetcharactersComponent } from './getcharacters/getcharacters.component';
 import { CharCardComponent } from './char-card/char-card.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,8 @@ import { CharCardComponent } from './char-card/char-card.component';
     CharactersComponent,
     EpCardComponent,
     GetcharactersComponent,
-    CharCardComponent
+    CharCardComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,

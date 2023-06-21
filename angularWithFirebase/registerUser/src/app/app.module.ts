@@ -11,6 +11,12 @@ import { UserCardComponent } from './user-card/user-card.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LogoComponent } from './logo/logo.component';
 import { FormComponent } from './form/form.component';
+import { LoginComponent } from './login/login.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { VerifyEmailComponent } from './verify-email/verify-email.component';
+import firebase from 'firebase/app';
+import { firebaseConfig } from './firebase.config';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +25,10 @@ import { FormComponent } from './form/form.component';
     UserCardComponent,
     NavigationComponent,
     LogoComponent,
-    FormComponent
+    FormComponent,
+    LoginComponent,
+    ForgotPasswordComponent,
+    VerifyEmailComponent
   ],
   imports: [
     BrowserModule,

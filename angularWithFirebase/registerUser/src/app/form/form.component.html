@@ -1,4 +1,4 @@
-<div class="form">
+<!-- <div class="form">
     <p style="color: rgb(118, 118, 255);">{{register}}</p>
     <label for="">FirstName:</label>
     <input class="form-control" [(ngModel)]="newUser.fname" type="text" placeholder="Enter FirstName">
@@ -15,4 +15,12 @@
     <input class="form-control" [(ngModel)]="repeatPass" type="text" placeholder="Repeat password">
     <p>{{error}}</p>
     <button (click)="addUser()">register</button>
-</div>
+</div> -->
+<p style="color: rgb(118, 118, 255);">{{register}}</p>
+<label for="">Enter Email:</label>
+<input [(ngModel)]="email" type="text" placeholder="email">
+<label for="">Enter Password</label>
+<input [(ngModel)]="password" type="text" placeholder="password">
+<p>{{error}}</p>
+<a>don't have an account? <span href="" routerLink="/register">logIn</span></a>
+<button (click)="addUser()">register</button>

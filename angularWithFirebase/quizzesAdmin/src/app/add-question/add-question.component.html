@@ -1,0 +1,39 @@
+<div class="main">
+    <div class="wid100">
+        <h2 style="color: white;">Add question</h2>
+        <div class="addq">
+            <div class="il">
+                <label for="">Enter question:</label>
+                <input [(ngModel)] = "myQuestion.quest"  type="text" placeholder="question">
+            </div>
+            <div class="il">
+                <label for="">Enter answers:</label>
+                <input [(ngModel)]="myAnswer1.answer" type="text" placeholder="answer1"  >
+                <input [(ngModel)]="myAnswer2.answer" type="text" placeholder="answer2" >
+                <input [(ngModel)]="myAnswer3.answer" type="text" placeholder="answer3" >
+            </div>
+            <div class="il">
+                <label for="">Enter correct answer:</label>
+                <input [(ngModel)] = "myQuestion.correctAnswer" type="text" placeholder="Correct answer">
+            </div>
+                <button class="create" (click)="addQuestion()">add question</button>
+
+        </div>
+    </div>
+    <div class="all">
+        <h2 style="color: white; display: block;">All questions</h2>
+    </div>
+    <div class="cards">
+        <p>questions count: {{newArr.length}}</p>
+        <hr>
+        <div *ngFor="let i of newArr" class="cardd">
+            <h5>{{i.quest}}</h5>
+                <p *ngFor="let i of i.answers">
+                {{i.answer}}
+                </p>
+                <p> correctAnswer: {{i.correctAnswer}}</p>
+            <button class="del" (click)="delete()">delete question</button>
+            <hr>
+        </div>
+    </div>
+</div>

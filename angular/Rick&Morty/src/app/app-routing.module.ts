@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AltersComponent } from './alters/alters.component';
 import { CharactersComponent } from './characters/characters.component';
 import { EpisodesComponent } from './episodes/episodes.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 import { RegisterComponent } from './register/register.component';
 import { RequestComponent } from './request/request.component';
 import { UsersComponent } from './users/users.component';
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path:'request', component:RequestComponent},
   {path:'alters/:name/:status', component:AltersComponent},
   {path:'episodes/:name/:status', component:EpisodesComponent},
-  {path:'characters/:episode', component:CharactersComponent}
+  {path:'characters/:episode', component:CharactersComponent},
+  {path:'**', component:ErrorPageComponent}
 ];
 
 @NgModule({

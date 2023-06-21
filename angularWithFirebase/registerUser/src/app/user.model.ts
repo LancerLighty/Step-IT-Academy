@@ -1,5 +1,4 @@
 export class User{
-    [x: string]: any
     fname:string = ""
     lname:string = ""
     email:string = ""
