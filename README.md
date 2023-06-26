@@ -4,4 +4,5 @@
 - HTML;
 - CSS;
 - JavaScript;
-- Angular.
+- TypeScript;
+- C#(in progress).
