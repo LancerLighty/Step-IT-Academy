@@ -19,7 +19,6 @@ export class AllUsersComponent implements OnInit {
         data.id = e.payload.doc.id
         return dt
       })
-      console.log(this.users)
     })
   }
 

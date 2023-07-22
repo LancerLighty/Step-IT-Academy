@@ -75,12 +75,22 @@ export class AppComponent {
         const startDate = workExp.get('startDate')?.value;
         const endDate = workExp.get('endDate')?.value;
   
-        if (!position || !startDate || !endDate) {
+        if (!position || !startDate || !endDate || this.checkDates(startDate, endDate)) {
           return false;
         }
       }
     }
     return true
+  }
+  checkDates(startDate: string, endDate: string): boolean {
+    const startDateObj = new Date(startDate);
+    const endDateObj = new Date(endDate);
+  
+    if (startDateObj < endDateObj) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
 
