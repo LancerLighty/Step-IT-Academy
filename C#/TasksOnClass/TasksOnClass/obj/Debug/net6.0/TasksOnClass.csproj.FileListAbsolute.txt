@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\TasksOnClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\TasksOnClass.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\TasksOnClass.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\TasksOnClass.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\bin\Debug\net6.0\TasksOnClass.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\bin\Debug\net6.0\TasksOnClass.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\bin\Debug\net6.0\TasksOnClass.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\bin\Debug\net6.0\TasksOnClass.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\bin\Debug\net6.0\TasksOnClass.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\TasksOnClass.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\refint\TasksOnClass.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\TasksOnClass.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\TasksOnClass.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnClass\TasksOnClass\obj\Debug\net6.0\ref\TasksOnClass.dll

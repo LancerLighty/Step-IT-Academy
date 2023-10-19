@@ -1,0 +1,4 @@
+C:\Users\Administrator\source\repos\StringsAndSpecifics\StringsAndSpecifics\obj\Debug\net6.0\StringsAndSpecifics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\StringsAndSpecifics\StringsAndSpecifics\obj\Debug\net6.0\StringsAndSpecifics.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\StringsAndSpecifics\StringsAndSpecifics\obj\Debug\net6.0\StringsAndSpecifics.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\StringsAndSpecifics\StringsAndSpecifics\obj\Debug\net6.0\StringsAndSpecifics.csproj.CoreCompileInputs.cache

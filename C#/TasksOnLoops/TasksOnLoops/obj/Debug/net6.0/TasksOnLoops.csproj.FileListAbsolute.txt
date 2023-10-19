@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\TasksOnLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\TasksOnLoops.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\TasksOnLoops.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\TasksOnLoops.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\bin\Debug\net6.0\TasksOnLoops.exe
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\bin\Debug\net6.0\TasksOnLoops.deps.json
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\bin\Debug\net6.0\TasksOnLoops.runtimeconfig.json
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\bin\Debug\net6.0\TasksOnLoops.dll
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\bin\Debug\net6.0\TasksOnLoops.pdb
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\TasksOnLoops.dll
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\refint\TasksOnLoops.dll
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\TasksOnLoops.pdb
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\TasksOnLoops.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\TasksOnLoops\TasksOnLoops\obj\Debug\net6.0\ref\TasksOnLoops.dll

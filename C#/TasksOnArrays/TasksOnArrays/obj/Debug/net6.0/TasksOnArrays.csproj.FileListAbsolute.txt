@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\bin\Debug\net6.0\TasksOnArrays.exe
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\bin\Debug\net6.0\TasksOnArrays.deps.json
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\bin\Debug\net6.0\TasksOnArrays.runtimeconfig.json
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\bin\Debug\net6.0\TasksOnArrays.dll
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\bin\Debug\net6.0\TasksOnArrays.pdb
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\TasksOnArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\TasksOnArrays.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\TasksOnArrays.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\TasksOnArrays.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\TasksOnArrays.dll
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\refint\TasksOnArrays.dll
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\TasksOnArrays.pdb
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\TasksOnArrays.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\TasksOnArrays\TasksOnArrays\obj\Debug\net6.0\ref\TasksOnArrays.dll

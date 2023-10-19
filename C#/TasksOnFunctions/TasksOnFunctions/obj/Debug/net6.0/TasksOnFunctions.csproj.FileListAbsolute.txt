@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\TasksOnFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\TasksOnFunctions.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\TasksOnFunctions.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\TasksOnFunctions.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\bin\Debug\net6.0\TasksOnFunctions.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\bin\Debug\net6.0\TasksOnFunctions.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\bin\Debug\net6.0\TasksOnFunctions.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\bin\Debug\net6.0\TasksOnFunctions.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\bin\Debug\net6.0\TasksOnFunctions.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\TasksOnFunctions.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\refint\TasksOnFunctions.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\TasksOnFunctions.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\TasksOnFunctions.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnFunctions\TasksOnFunctions\obj\Debug\net6.0\ref\TasksOnFunctions.dll

@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\bin\Debug\net6.0\TasksOnThingsLearned.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\bin\Debug\net6.0\TasksOnThingsLearned.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\bin\Debug\net6.0\TasksOnThingsLearned.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\bin\Debug\net6.0\TasksOnThingsLearned.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\bin\Debug\net6.0\TasksOnThingsLearned.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\TasksOnThingsLearned.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\TasksOnThingsLearned.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\TasksOnThingsLearned.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\TasksOnThingsLearned.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\TasksOnThingsLearned.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\refint\TasksOnThingsLearned.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\TasksOnThingsLearned.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\TasksOnThingsLearned.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnEncapsulation\TasksOnEncapsulation\obj\Debug\net6.0\ref\TasksOnThingsLearned.dll
