@@ -1,0 +1,4 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnObstractionClasses\TasksOnObstractionClasses\obj\Debug\net6.0\TasksOnObstractionClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnObstractionClasses\TasksOnObstractionClasses\obj\Debug\net6.0\TasksOnObstractionClasses.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnObstractionClasses\TasksOnObstractionClasses\obj\Debug\net6.0\TasksOnObstractionClasses.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnObstractionClasses\TasksOnObstractionClasses\obj\Debug\net6.0\TasksOnObstractionClasses.csproj.CoreCompileInputs.cache
