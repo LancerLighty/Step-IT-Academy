@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\TasksOnDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\TasksOnDelegates.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\TasksOnDelegates.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\TasksOnDelegates.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\bin\Debug\net6.0\TasksOnDelegates.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\bin\Debug\net6.0\TasksOnDelegates.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\bin\Debug\net6.0\TasksOnDelegates.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\bin\Debug\net6.0\TasksOnDelegates.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\bin\Debug\net6.0\TasksOnDelegates.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\TasksOnDelegates.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\refint\TasksOnDelegates.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\TasksOnDelegates.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\TasksOnDelegates.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnDelegates\TasksOnDelegates\obj\Debug\net6.0\ref\TasksOnDelegates.dll

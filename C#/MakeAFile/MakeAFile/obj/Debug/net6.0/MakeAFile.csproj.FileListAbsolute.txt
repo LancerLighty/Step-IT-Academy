@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\bin\Debug\net6.0\MakeAFile.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\bin\Debug\net6.0\MakeAFile.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\bin\Debug\net6.0\MakeAFile.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\bin\Debug\net6.0\MakeAFile.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\bin\Debug\net6.0\MakeAFile.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\MakeAFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\MakeAFile.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\MakeAFile.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\MakeAFile.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\MakeAFile.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\refint\MakeAFile.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\MakeAFile.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\MakeAFile.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\MakeAFile\MakeAFile\obj\Debug\net6.0\ref\MakeAFile.dll

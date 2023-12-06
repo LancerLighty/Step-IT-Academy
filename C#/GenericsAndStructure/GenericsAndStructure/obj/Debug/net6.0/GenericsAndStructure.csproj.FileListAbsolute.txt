@@ -1,0 +1,4 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\GenericsAndStructure\GenericsAndStructure\obj\Debug\net6.0\GenericsAndStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\GenericsAndStructure\GenericsAndStructure\obj\Debug\net6.0\GenericsAndStructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\GenericsAndStructure\GenericsAndStructure\obj\Debug\net6.0\GenericsAndStructure.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\GenericsAndStructure\GenericsAndStructure\obj\Debug\net6.0\GenericsAndStructure.csproj.CoreCompileInputs.cache
