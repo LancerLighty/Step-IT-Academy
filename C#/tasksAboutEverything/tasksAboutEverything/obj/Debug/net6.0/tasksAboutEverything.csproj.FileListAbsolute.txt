@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\bin\Debug\net6.0\tasksAboutEverything.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\bin\Debug\net6.0\tasksAboutEverything.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\bin\Debug\net6.0\tasksAboutEverything.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\bin\Debug\net6.0\tasksAboutEverything.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\bin\Debug\net6.0\tasksAboutEverything.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\tasksAboutEverything.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\tasksAboutEverything.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\tasksAboutEverything.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\tasksAboutEverything.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\tasksAboutEverything.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\refint\tasksAboutEverything.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\tasksAboutEverything.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\tasksAboutEverything.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\tasksAboutEverything\tasksAboutEverything\obj\Debug\net6.0\ref\tasksAboutEverything.dll

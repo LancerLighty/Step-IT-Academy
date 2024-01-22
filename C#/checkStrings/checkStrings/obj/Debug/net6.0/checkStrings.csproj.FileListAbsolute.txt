@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\bin\Debug\net6.0\checkStrings.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\bin\Debug\net6.0\checkStrings.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\bin\Debug\net6.0\checkStrings.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\bin\Debug\net6.0\checkStrings.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\bin\Debug\net6.0\checkStrings.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\checkStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\checkStrings.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\checkStrings.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\checkStrings.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\checkStrings.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\refint\checkStrings.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\checkStrings.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\checkStrings.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\checkStrings\checkStrings\obj\Debug\net6.0\ref\checkStrings.dll

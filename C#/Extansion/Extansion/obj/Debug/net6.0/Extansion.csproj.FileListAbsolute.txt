@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\bin\Debug\net6.0\Extansion.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\bin\Debug\net6.0\Extansion.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\bin\Debug\net6.0\Extansion.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\bin\Debug\net6.0\Extansion.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\bin\Debug\net6.0\Extansion.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\Extansion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\Extansion.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\Extansion.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\Extansion.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\Extansion.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\refint\Extansion.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\Extansion.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\Extansion.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\Extansion\Extansion\obj\Debug\net6.0\ref\Extansion.dll

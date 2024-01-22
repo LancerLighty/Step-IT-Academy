@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\bin\Debug\net6.0\TasksOnActivator.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\bin\Debug\net6.0\TasksOnActivator.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\bin\Debug\net6.0\TasksOnActivator.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\bin\Debug\net6.0\TasksOnActivator.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\bin\Debug\net6.0\TasksOnActivator.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\TasksOnActivator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\TasksOnActivator.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\TasksOnActivator.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\TasksOnActivator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\TasksOnActivator.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\refint\TasksOnActivator.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\TasksOnActivator.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\TasksOnActivator.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\TasksOnActivator\TasksOnActivator\obj\Debug\net6.0\ref\TasksOnActivator.dll

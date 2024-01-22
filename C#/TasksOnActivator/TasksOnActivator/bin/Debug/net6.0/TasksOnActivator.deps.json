@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TasksOnActivator/1.0.0": {
+        "runtime": {
+          "TasksOnActivator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TasksOnActivator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

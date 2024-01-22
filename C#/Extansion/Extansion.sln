@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extansion", "Extansion\Extansion.csproj", "{7933EB66-48EC-4F77-A955-9A5E30D005AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7933EB66-48EC-4F77-A955-9A5E30D005AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7933EB66-48EC-4F77-A955-9A5E30D005AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7933EB66-48EC-4F77-A955-9A5E30D005AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7933EB66-48EC-4F77-A955-9A5E30D005AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE1DA022-B12A-4C76-BAB3-BCC02A722B63}
+	EndGlobalSection
+EndGlobal

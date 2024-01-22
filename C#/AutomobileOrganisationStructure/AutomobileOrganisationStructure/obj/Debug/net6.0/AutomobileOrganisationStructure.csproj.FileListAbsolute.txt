@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\AutomobileOrganisationStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\AutomobileOrganisationStructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\AutomobileOrganisationStructure.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\AutomobileOrganisationStructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\bin\Debug\net6.0\AutomobileOrganisationStructure.exe
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\bin\Debug\net6.0\AutomobileOrganisationStructure.deps.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\bin\Debug\net6.0\AutomobileOrganisationStructure.runtimeconfig.json
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\bin\Debug\net6.0\AutomobileOrganisationStructure.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\bin\Debug\net6.0\AutomobileOrganisationStructure.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\AutomobileOrganisationStructure.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\refint\AutomobileOrganisationStructure.dll
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\AutomobileOrganisationStructure.pdb
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\AutomobileOrganisationStructure.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\GitHub\Step-IT-Academy\C#\AutomobileOrganisationStructure\AutomobileOrganisationStructure\obj\Debug\net6.0\ref\AutomobileOrganisationStructure.dll
